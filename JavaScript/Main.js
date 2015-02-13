@@ -11,7 +11,7 @@ Main.onLoad = function() {             // called by body's onload event
     
 }
 
-Main.keyDown = function() {            // Key handler
+Main.keyDown = function() {            
     var keyCode = event.keyCode;
     alert("Main Key code : " + keyCode);
 
